@@ -41,4 +41,4 @@ Here the c-1 defines for desktops, t-1 defines for tablets and x-1 defines mobil
 
 ## License
 
-ISC © [Suresh Kommuri](https://github.com/suresh-kommuri)
+MIT © [Suresh Kommuri](https://github.com/suresh-kommuri)
