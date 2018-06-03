@@ -1,0 +1,32 @@
+// gridQuery version 1 (v1)
+// Author Suresh Kommuri
+
+*{
+	box-sizing:border-box;
+}
+.gridbox{
+	padding-left:15px;
+	padding-right:15px;
+	.gridrow{
+		width:100%;
+		margin-left:-15px;
+		margin-right:-15px;
+		div[class*="c-"]{
+			float:left;
+			padding-left:15px;
+			padding-right:15px;
+			position:relative;
+			min-height:1px;
+		}
+		&:before,&:after{
+			clear:both;
+			display:table;
+			content:"";
+		}
+	}
+	&:before,&:after{
+		clear:both;
+		display:table;
+		content:"";
+	}
+}
